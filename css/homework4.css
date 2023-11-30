@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  width: 600px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  position: relative;
+  top: 20px;
+  padding: 40px;
+}
+
+
+
+.top-box h2 {
+  font-size: 30px;
+}
+
+.content-box {
+
+  height: 400px;
+}
+h4 {
+  font-size: 20px;
+  margin: 10px 0 ;
+}
+
+.email {
+  width: 99%;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+
+.first-name {
+  float: left;
+}
+
+.first-name input {
+  width: 230px;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+.last-name {
+  float: left;
+  position: absolute;
+  left: 53%;
+}
+
+.last-name input {
+  width: 230px;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+
+.message {
+  clear: both;
+  position: relative;
+  top: 20px;
+}
+
+.message textarea {
+  width: 99%;
+  height: 240px;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+.footer-box {
+  clear: both;
+  margin-top: 60px;
+  height: 50px;
+}
+
+.subscribe-box {
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.checkbox {
+  float: left;
+}
+
+.subscribe {
+  position: relative;
+  left: 7px;
+  font-size: 17px;
+  top: 50%;
+  width: 100px;
+}
+
+.button-box {
+  height: 100%;
+  float: right;
+  position: relative;
+  top: -20px;
+}
+
+.button-box button {
+  height: 100%;
+  width: 150px;
+  background: orange;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
