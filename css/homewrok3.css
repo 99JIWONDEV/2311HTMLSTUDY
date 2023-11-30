@@ -1,5 +1,5 @@
-.container {
-    width: 700px;
+.wrapper {
+    width: 800px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -7,13 +7,14 @@
 
 .left-box {
     width: 80%;
-    height: 200px;
     float: left;
+    height: 150px;
 }
+
 .right-box {
     width: 20%;
-    height: 200px;
     float: left;
+    height: 150px;
 }
 
 .left-name {
@@ -22,6 +23,13 @@
 
 .left-content {
     clear: both;
+}
+
+nav {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar li{
@@ -33,9 +41,7 @@
     border-radius: 5px;
 }
 
-.navbar a {
-    font-size: 16px;
+.navbar a{
     text-decoration: none;
     color: black;
 }
-
