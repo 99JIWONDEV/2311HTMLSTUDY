@@ -3,12 +3,13 @@
   background-color: #c2d3de;
   padding: 30px;
 }
-td, th {
+td,
+th {
   /* border: 1px solid black; */
 }
 
 table {
-  border-collapse: collapse ;
+  border-collapse: collapse;
 }
 
 .cart-table {
@@ -19,7 +20,8 @@ table {
   border-radius: 10px;
 }
 
-.cart-table th, .cart-table td {
+.cart-table th,
+.cart-table td {
   padding: 15px;
   border-bottom: 1px solid #c2d3de;
 }
@@ -28,10 +30,38 @@ table {
   width: 400px;
 }
 
-.cart-table td {
-  text-align: center;
-}
-
 #price {
   text-align: end;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bottom-box {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button {
+  position: relative;
+  top: -10px;
+  float: right;
+  width: 250px;
+  height: 40px;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 8px;
 }
