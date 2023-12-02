@@ -1,0 +1,44 @@
+.wrapper {
+  background-color: skyblue;
+  padding: 30px 70px;
+}
+
+.top-box {
+  width: 100%;
+  background-color: yellow;
+  padding: 20px 0px;
+}
+
+.top-box p {
+  font-size: 30px;
+}
+table {
+  width: 100%;
+  margin: auto;
+}
+
+.title th {
+  text-align: center;
+}
+.item {
+  vertical-align: middle;
+  
+}
+
+.amount {
+  text-align: end;
+}
+
+.price {
+  text-align: center;
+}
+.total {
+  text-align: center;
+}
+
+.total-price {
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+}
+

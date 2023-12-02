@@ -1,0 +1,37 @@
+.cart-background {
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+td, th {
+  /* border: 1px solid black; */
+}
+
+table {
+  border-collapse: collapse ;
+}
+
+.cart-table {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.cart-table th, .cart-table td {
+  padding: 15px;
+  border-bottom: 1px solid #c2d3de;
+}
+
+.cart-table th:nth-child(2) {
+  width: 400px;
+}
+
+.cart-table td {
+  text-align: center;
+}
+
+#price {
+  text-align: end;
+}
