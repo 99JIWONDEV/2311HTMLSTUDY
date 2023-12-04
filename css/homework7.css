@@ -42,9 +42,17 @@ p {
   margin: 10px 0;
 }
 
-a {
+.link {
   text-decoration: none;
 }
+
+.link:link {
+  color: black;
+} 
+
+.link:visited {
+  color: aqua;
+} 
 
 .bottom-box {
   width: 100%;
@@ -64,4 +72,17 @@ a {
   color: white;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: chocolate;
+}
+
+.button:active {
+  background-color: brown;
+}
+
+.button:focus {
+  background-color: blue;
 }
