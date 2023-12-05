@@ -5,7 +5,6 @@ body {
   margin: 0;
 }
 
-
 .main-background {
   width: 100%;
   height: 500px;
@@ -19,17 +18,16 @@ body {
 
 .main-title {
   color: white;
-  font-size: 40px;
-  margin-top: 100px;
+  font-size: 60px;
   padding: 1px;
-  margin-bottom: 20px;
   padding-left: 10px;
+  text-align: center;
 }
 
 .main-description {
   color: white;
   font-size: 20px;
-  padding-left: 10px;
+  text-align: center;
 }
 
 .main-button {
@@ -51,7 +49,7 @@ body {
   font-size: 14px;
 }
 
-.main-button a:visited{
+.main-button a:visited {
   text-decoration: none;
   color: black;
 }
@@ -68,9 +66,22 @@ body {
   box-sizing: border-box;
 }
 
-input[type=text] {
+input[type="text"] {
   padding: 10px;
   font-size: 20px;
   border: 2px solid black;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 20px;
+  }
+}
+  
